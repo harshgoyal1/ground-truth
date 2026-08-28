@@ -18,15 +18,55 @@ It works in any AI coding assistant. It runs entirely on your machine.
 
 Real examples of the class of finding this produces:
 
-- *"Your CV says 'my own platform'. Git says 83 of 223 commits are yours and the repo belongs to
-  a colleague. That claim dies the moment an interviewer asks for the link."*
-- *"Your flagship project has 74 commits in July and 0 in August — it went quiet exactly when you
-  started marketing it."*
-- *"Your CV undersells you. Nothing on it says you write production full-stack code, and your
-  commit history says you do."*
-- *"Client progress reports and personal tax documents are in the same folder."*
+- *"Your CV claims sole ownership of a project whose git history shows three contributors and a
+  repo you do not own. That claim dies the moment someone asks for the link."*
+- *"Your flagship project went quiet the same month you started presenting it. Check your commit
+  dates against your talk dates."*
+- *"Your CV undersells you. Nothing on it says you write production code. Your commit history
+  says otherwise."*
+- *"Client deliverables and personal documents are sitting in the same folder."*
 
 Compliments are cheap. These are the sentences that change what you do next week.
+
+## What it looks like
+
+Abridged, sanitised — a real run is longer and names your actual files.
+
+```
+### Skills — evidenced
+
+| Skill        | Evidence found                                   | Level     |
+|--------------|--------------------------------------------------|-----------|
+| Backend      | 140 commits across api/, services/, migrations/  | Strong    |
+| IaC          | 3 Terraform repos, 1 stale 8 months              | Working   |
+| Testing      | 6% of commits touch test files                   | Weak      |
+
+### Weaknesses — ranked by damage
+
+1. Ownership language will not survive scrutiny.
+   Your CV says "built and owned". Git shows 2 other contributors with more
+   commits, and the repo is under another account.
+   Fix: "designed and co-built with a small team" — still strong, survives the click.
+
+2. Your two most valuable projects are not backed up.
+   `~/work/platform` has 31 uncommitted files and no remote.
+   `~/work/toolkit` has 12 unpushed commits.
+   One disk failure and both are gone.
+
+3. You start more than you finish.
+   7 repos, 4 with no commits in 60+ days. Last activity: Jun 12, Jul 03, Jul 19.
+
+### Blind spots
+
+- You present as an architect. Your commit history reads as an engineer who
+  architects — a stronger position you are not claiming.
+
+### Fix these three, in order
+
+1. Reword the ownership claim (10 minutes).
+2. Push the 31 uncommitted files (1 hour).
+3. Pick one stale repo. Finish it or archive it. Not both.
+```
 
 ## What makes it different
 
