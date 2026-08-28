@@ -18,13 +18,13 @@ It works in any AI coding assistant. It runs entirely on your machine.
 
 Real examples of the class of finding this produces:
 
-- *"Your CV claims sole ownership of a project whose git history shows three contributors and a
-  repo you do not own. That claim dies the moment someone asks for the link."*
-- *"Your flagship project went quiet the same month you started presenting it. Check your commit
-  dates against your talk dates."*
-- *"Your CV undersells you. Nothing on it says you write production code. Your commit history
-  says otherwise."*
-- *"Client deliverables and personal documents are sitting in the same folder."*
+- *"Your CV says 'my own platform'. Git says 83 of 223 commits are yours and the repo belongs to
+  a colleague. That claim dies the moment an interviewer asks for the link."*
+- *"Your flagship project has 74 commits in July and 0 in August — it went quiet exactly when you
+  started marketing it."*
+- *"Your CV undersells you. Nothing on it says you write production full-stack code, and your
+  commit history says you do."*
+- *"Client progress reports and personal tax documents are in the same folder."*
 
 Compliments are cheap. These are the sentences that change what you do next week.
 
